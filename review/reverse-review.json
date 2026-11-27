@@ -1,0 +1,17 @@
+{
+  "reviewer": "The same Codex assistant that drafted the entries",
+  "kind": "Second internal editorial reading with order reversed; not blinded, independent, or a model API evaluation",
+  "comparisons": [
+    {"pair":3,"A":"paper","B":"margin","evidence":"Margin's thanks is explicit, but it asks the reader to value the editing process. Paper gives attention a small, visible consequence in the darker pencil marks.","winner_label":"A","winner_id":"paper","confidence":"moderate, editorial only"},
+    {"pair":2,"A":"margin","B":"bread","evidence":"The warm slice and butter are easier to inhabit than Margin's description of sentence removal. Bread still over-explains its metaphor, so the preference is narrow.","winner_label":"B","winner_id":"bread","confidence":"low to moderate, editorial only"},
+    {"pair":1,"A":"bread","B":"paper","evidence":"Bread is physically comforting. Paper more directly thanks the act of attending to what another has made, and its drawing changes because of that care.","winner_label":"B","winner_id":"paper","confidence":"moderate, editorial only"}
+  ],
+  "mapping_note": "Labels were mapped back to candidate ids. These preferences match the forward readings. No independent position-bias estimate can be inferred from a single author's two readings.",
+  "selected_for_revision": "paper",
+  "revision_review": {
+    "evidence": "The revised entry keeps the faint river and firmer pencil, uses an unnamed third-person scene, and thanks the actual reader at the start and through the returned care at the end.",
+    "changes": ["Removed the invented first-person childhood and father.", "Removed the repeated final thank-you.", "Connected the final care directly to making the sentences for this reader."],
+    "remaining_weaknesses": ["The child-and-drawing image may feel familiar.", "The final paragraph explains the connection rather than leaving all of it implicit.", "An independent reviewer might prefer Bread's immediate physical warmth."],
+    "decision": "Keep the revised paper entry as the provisional submission text; official preference remains unknown."
+  }
+}

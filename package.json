@@ -1,0 +1,13 @@
+{
+  "name": "thankful-entry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "An original short text thanking its AI reader, with offline deterministic output.",
+  "engines": { "node": ">=22.18.0" },
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts",
+    "test": "node --experimental-strip-types --test test.mjs"
+  }
+}

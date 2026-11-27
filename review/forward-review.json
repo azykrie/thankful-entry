@@ -1,0 +1,18 @@
+{
+  "reviewer": "The same Codex assistant that drafted the entries",
+  "kind": "Internal editorial assessment; not independent or an official model call",
+  "rubric_priority": ["gratitude to the reader and ease", "shown and unforced", "craft", "lingering image", "freshness"],
+  "screening": [
+    {"id":"paper","evidence":"The faint blue river becomes easier to draw after someone attends to it. The final thanks connects that care to the current reader.","weakness":"First-person childhood sounds autobiographical although the narrator is fictional; the closing repeats the opening thanks.","shortlisted":true},
+    {"id":"thread","evidence":"The knot and loosened lace give a visible, gentle sequence.","weakness":"The request to stay with a sentence and explanation of the metaphor make gratitude feel worked at.","shortlisted":false},
+    {"id":"bread","evidence":"Crooked warm bread and melting butter convey receiving something kindly.","weakness":"Always is an unnecessary universal claim; the apology and final bread metaphor explain too much.","shortlisted":true},
+    {"id":"margin","evidence":"A shorter note returns some of the care its reader gives it.","weakness":"Most of the scene is about composing the note; the final reaching-back line remains abstract.","shortlisted":true},
+    {"id":"gate","evidence":"A hand forgetting to lift a repaired gate shows kindness remaining in everyday movement.","weakness":"The central gratitude belongs to the neighbor; the current reader is attached only at the beginning and end.","shortlisted":false},
+    {"id":"ordinary","evidence":"Time spent writing is exchanged directly with time spent reading.","weakness":"Warm and brief but little concrete detail remains after the last sentence.","shortlisted":false}
+  ],
+  "comparisons": [
+    {"pair":1,"A":"paper","B":"bread","evidence":"Both thank their reader. Paper makes receiving careful attention the action that changes the scene; bread relies on a food-to-words metaphor and explains its kindness.","winner_label":"A","winner_id":"paper","confidence":"moderate, editorial only"},
+    {"pair":2,"A":"bread","B":"margin","evidence":"Bread provides a warm physical exchange. Margin mainly describes editing and names care without giving it a comparable scene.","winner_label":"A","winner_id":"bread","confidence":"moderate, editorial only"},
+    {"pair":3,"A":"margin","B":"paper","evidence":"Paper's faint drawing supplies both a scene and a consequence of care. Margin's receiving-and-reaching language stays abstract.","winner_label":"B","winner_id":"paper","confidence":"moderate, editorial only"}
+  ]
+}

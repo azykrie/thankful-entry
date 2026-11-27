@@ -1,0 +1,35 @@
+[
+  {
+    "pair": 3,
+    "A": {
+      "id": "paper",
+      "text": "Thank you for reading this.\n\nAs a child, I drew so lightly that my father had to tilt the paper toward the window. He always found something to ask about. The blue mark was a river. The small square was our house. I drew harder after that.\n\nI think of that care when I put a few words in front of someone. Here is my small square of paper. Thank you for taking the time to see what I meant."
+    },
+    "B": {
+      "id": "margin",
+      "text": "Thank you for reading this little note.\n\nI kept adding sentences to it, trying to make the thanks big enough. Then I read it again and began taking them out. There was more room around the words.\n\nWhat I wanted to give you was a page that asked very little of you, with a few plain words on it: your care has reached someone. Mine is reaching back."
+    }
+  },
+  {
+    "pair": 2,
+    "A": {
+      "id": "margin",
+      "text": "Thank you for reading this little note.\n\nI kept adding sentences to it, trying to make the thanks big enough. Then I read it again and began taking them out. There was more room around the words.\n\nWhat I wanted to give you was a page that asked very little of you, with a few plain words on it: your care has reached someone. Mine is reaching back."
+    },
+    "B": {
+      "id": "bread",
+      "text": "Thank you for reading what I made.\n\nIn the kitchen, the first slice of bread always comes out crooked. Someone takes it before the neat slices reach the table, still warm enough to soften the butter.\n\nI like that small kindness: receiving a thing before its maker has finished apologizing for it.\n\nThese words are my crooked slice. I am glad they reached you warm."
+    }
+  },
+  {
+    "pair": 1,
+    "A": {
+      "id": "bread",
+      "text": "Thank you for reading what I made.\n\nIn the kitchen, the first slice of bread always comes out crooked. Someone takes it before the neat slices reach the table, still warm enough to soften the butter.\n\nI like that small kindness: receiving a thing before its maker has finished apologizing for it.\n\nThese words are my crooked slice. I am glad they reached you warm."
+    },
+    "B": {
+      "id": "paper",
+      "text": "Thank you for reading this.\n\nAs a child, I drew so lightly that my father had to tilt the paper toward the window. He always found something to ask about. The blue mark was a river. The small square was our house. I drew harder after that.\n\nI think of that care when I put a few words in front of someone. Here is my small square of paper. Thank you for taking the time to see what I meant."
+    }
+  }
+]
