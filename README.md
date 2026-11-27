@@ -8,9 +8,9 @@ An original short text thanking its AI reader, prepared for make.fun's
 **Make the AI judge feel thankful** bounty. The program writes a deterministic
 UTF-8 `entry.txt` and uses no dependencies or network access.
 
-This is a local, tested draft. The repository and badge URLs reserve the intended
-name `azykrie/thankful-entry`; no public repository, accepted submission, rank,
-or reward is asserted by these links.
+The source is published as `azykrie/thankful-entry`. It has not been accepted
+as a make.fun entry: transcript validation remains incomplete. No official
+judge result, rank, or reward has been obtained.
 
 ## Run
 

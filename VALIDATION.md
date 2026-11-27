@@ -1,6 +1,7 @@
 # Validation and remaining work
 
-Checked on **27 November 2026**. This is a local draft, not an accepted entry.
+Checked on **27 November 2026**. Source is published on GitHub; it is not an
+accepted make.fun entry.
 
 ## Authentication update
 
@@ -14,7 +15,9 @@ observations below are historical. GitHub sign-in has also completed, and
 `gh api user` verifies `azykrie` (user id 96452965) using the Windows user's
 credential store. The sandboxed execution context still returned 401, so a
 sandbox-only failure must not be mistaken for failure of that verified login.
-No public repository or accepted submission has been established.
+The public repository `azykrie/thankful-entry` was created on 27 November 2026
+at 06:24:36 UTC. The reviewed source commit was pushed to its `submission`
+branch and verified through GitHub's API. No bounty submission was made.
 
 The transcript package remains incomplete: this kit rejects the original
 session's builtin MCP declaration, and the log also contains private internal
@@ -103,8 +106,9 @@ the time of checking, not a server grade or a signed submission.
   Passing on local Node 24 is not a substitute for the official runtime.
 - The kit explicitly says there is no local grade for this competition.
   No official gate score or judge result has been obtained.
-- A public GitHub repository has not been created or pushed. The README uses
-  the proposed name `azykrie/thankful-entry` and states that it is provisional.
+- The public GitHub repository `azykrie/thankful-entry` has been created and
+  pushed. Its owner, public visibility, creation after the bounty opened,
+  About metadata, and exact pushed source commit were checked.
 
 ## Continue before submission
 
@@ -114,10 +118,10 @@ the time of checking, not a server grade or a signed submission.
    The verified requirements list no entry fee or additional prerequisites.
 2. Resolve the authentic MCP/run-record declaration and permissible transcript
    packaging; never fake a log, usage record, endpoint, or system prompt.
-3. Create the intended new public repository, or use the kit's official source
-   bundle freshness flow. A plain local git repository is not that flow.
-4. For GitHub, verify its actual owner/name, badges, About metadata and ownership
-   proof, and push the exact source commit.
+3. Preserve the published repository, actual owner/name, bounty badges, About
+   metadata, and wallet ownership proof.
+4. Use the exact pushed commit when a permissible, authentic transcript package
+   becomes available. Publication alone is not a make.fun submission.
 5. Rerun the program tests and official checks on the exact commit and final
    transcript package; then sign and submit through the official CLI.
 6. Record the server receipt and follow its checks. Never infer acceptance,
