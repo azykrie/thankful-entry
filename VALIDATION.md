@@ -2,6 +2,21 @@
 
 Checked on **27 November 2026**. This is a local draft, not an accepted entry.
 
+## Authentication update
+
+The official CLI completed the replacement device approval and printed
+`Connected: entries now go in as @azykrie` on 27 November 2026. The resulting
+key is stored privately and expires on 27 December 2026. The connected wallet
+is recorded in `.makefun/owner.json` as repository ownership proof.
+
+Network access is now available. The older network-denied and cached-key
+observations below are historical. GitHub authentication still returns 401,
+and no public repository or accepted submission has been established.
+
+The transcript package remains incomplete: this kit rejects the original
+session's builtin MCP declaration, and the log also contains private internal
+instructions that cannot be uploaded. No archive containing them was created.
+
 ## Program tests
 
 Command: `node --experimental-strip-types --test test.mjs`.
