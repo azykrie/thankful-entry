@@ -1,5 +1,56 @@
 # Validation and remaining work
 
+## Current repair: local Linux verification
+
+Verified on 27 November 2026 in recorded Hermes session
+`local-04cfc8188a425ff4298df8c187887a1bba1e9cdafc615a78db04a742d02098eb`.
+This session was started by a hand-off from the Discord repair conversation,
+not a new user-typed root request. The user's exact words supplied in the
+hand-off were: "lakuakn sama kamu dan pastikan harus lolos!".
+This document is a validation note, not a transcript or make.fun run record.
+
+The entrypoint was written in full and meaningfully revised in a separate
+assistant message here. The new test harness was also authored here. Original
+Windows Codex logs are not on this machine; this session claims no authorship
+of those earlier commits. Historical review files are not new build evidence.
+
+Actual local results:
+
+- Platform: Linux; Node v22.23.3; npm 10.9.9.
+- `npm run test`: 19 passed, 0 failed, 0 skipped.
+- Separate `node --experimental-strip-types main.ts` execution with OUTPUT_DIR
+  set to `/data/home/.hermes/cache/scratch/thankful-preview-Yj0cSE` exited 0.
+- That directory contains only `entry.txt`: strict UTF-8, non-whitespace,
+  484 Unicode code points, 484 bytes, within the 1–1000-point rule.
+- SHA-256: `fd533700cd70a943ac7855a8b8416aa8edb71272a21beec75a0e23401a3c2e6e`.
+- Tests verified exact bytes, no BOM, deterministic independent executions,
+  complete overwrites, import without output, environment override, Unicode
+  boundaries, restricted filesystem permissions, and visible path failure.
+- The default `/output/entry.txt` destination is preserved in source; local
+  executions used scratch overrides rather than writing to `/output`.
+- No network-isolation claim follows from filesystem permission tests.
+- The local runtime is not exactly the grader's Node 22.23.4 in the kit.
+
+The official kit's RULES.txt, competition.yaml and kit.json were read unchanged.
+The live requirements endpoint reported open with deadline
+2026-11-27T21:41:00.000Z when fetched in this session. The sealed scorer has no
+local grade. No official transcript checker was run for this repair because
+no privacy-reviewed transcript package exists yet. No transcripts were bundled,
+uploaded, or submitted here; no system prompt was exported.
+
+The hand-off reports that previous submission
+`01a21c91-e25b-7236-988f-9c7476627419` failed solely for absent transcripts;
+that server status was not independently queried here. The parent conversation
+must review privacy, prepare the authentic run record (including the hand-off
+origin and required parent context), run official checks on the exact commit,
+then submit only if permitted. Acceptance, rank, and prize are not guaranteed.
+
+## Historical notes from the earlier build
+
+Everything below predates this repair and is retained as historical reporting,
+not reverified Linux evidence. In particular, earlier Windows authentication,
+network, test, hash and checker observations do not describe the new build.
+
 Checked on **27 November 2026**. Source is published on GitHub; it is not an
 accepted make.fun entry.
 
