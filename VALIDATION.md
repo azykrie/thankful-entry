@@ -10,8 +10,11 @@ key is stored privately and expires on 27 December 2026. The connected wallet
 is recorded in `.makefun/owner.json` as repository ownership proof.
 
 Network access is now available. The older network-denied and cached-key
-observations below are historical. GitHub authentication still returns 401,
-and no public repository or accepted submission has been established.
+observations below are historical. GitHub sign-in has also completed, and
+`gh api user` verifies `azykrie` (user id 96452965) using the Windows user's
+credential store. The sandboxed execution context still returned 401, so a
+sandbox-only failure must not be mistaken for failure of that verified login.
+No public repository or accepted submission has been established.
 
 The transcript package remains incomplete: this kit rejects the original
 session's builtin MCP declaration, and the log also contains private internal
@@ -105,9 +108,10 @@ the time of checking, not a server grade or a signed submission.
 
 ## Continue before submission
 
-1. Restore permitted terminal network access and verify the live account is
-   `azykrie`, entry is still open, fees, and remaining quota. The supplied
-   requirements list no entry fee or additional prerequisites.
+1. Use the existing verified make.fun and GitHub connections, with approved
+   access to their private credential stores where needed. Recheck that the
+   competition is still open, fees, and remaining quota before submitting.
+   The verified requirements list no entry fee or additional prerequisites.
 2. Resolve the authentic MCP/run-record declaration and permissible transcript
    packaging; never fake a log, usage record, endpoint, or system prompt.
 3. Create the intended new public repository, or use the kit's official source
